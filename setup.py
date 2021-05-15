@@ -24,11 +24,11 @@ setup(
         "Programming Language :: Python :: 3.6",
     ],
     install_requires=[
-        'grpcio==1.18.0',
-        'grpcio-tools==1.18.0',
-        'colorama==0.3.3',
-        'termcolor==1.1.0',
-        'tqdm==4.31.1'
+        'grpcio',
+        'grpcio-tools',
+        'colorama',
+        'termcolor',
+        'tqdm'
     ],
     entry_points={
         'console_scripts': [
